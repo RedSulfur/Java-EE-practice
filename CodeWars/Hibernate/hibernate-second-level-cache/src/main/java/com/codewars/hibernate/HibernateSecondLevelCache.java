@@ -63,25 +63,21 @@ public class HibernateSecondLevelCache {
         // Делаем дважды для демонстрации - SELECT вызывается один раз или два
         // в зависимости от настроек кэша
 
-        Session session = sessionFactory.getCurrentSession();
-        session.beginTransaction();
+//        checkQuery(sessionFactory);
+//        checkQuery(sessionFactory);
 
         // Делаем дважды для демонстрации - SELECT вызывается один раз или два
         // в зависимости от настроек кэша
-        checkOne(session);
+        checkOne(sessionFactory);
+        checkOne(sessionFactory);
 
         // Обращение к статистике только при включенном кэше
 //        showStatistics(sessionFactory);
-        Session session2 = sessionFactory.getCurrentSession();
-        checkOne(session2);
-
-        session2.getTransaction().commit();
-
+//        showStatistics(sessionFactory);
 
         destroy();
     }
 
-   /*
    private static void checkQuery(SessionFactory sessionFactory) throws HibernateException {
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
@@ -97,18 +93,20 @@ public class HibernateSecondLevelCache {
         }
         session.getTransaction().commit();
     }
-    */
 
-    private static void checkOne(Session session) {
+    private static void checkOne(SessionFactory sessionFactory) {
+
+        Session session = sessionFactory.getCurrentSession();
 
         log.info("session hash : {}", session.hashCode());
 
+        session.beginTransaction();
 //        В момент получения обьекта он будет помещен в кэш 1го уровня
         Employee e = (Employee) session.get(Employee.class, 1L);
         log.info("Employee: {}", e);
+        session.getTransaction().commit();
     }
 
-    /*
     private static void showStatistics(SessionFactory sessionFactory) {
         if (sessionFactory.getStatistics().getSecondLevelCacheStatistics("CacheForRegion") != null) {
             Map ce = sessionFactory.getStatistics().getSecondLevelCacheStatistics("CacheForRegion").getEntries();
@@ -123,6 +121,5 @@ public class HibernateSecondLevelCache {
             log.info("No statistics for second level");
         }
     }
-    */
 
 }

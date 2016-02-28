@@ -11,6 +11,18 @@ import java.io.Serializable;
  */
 
 @Entity
+/*
+region = "CacheForRegion" - регион кэширования
+поскольку разные обьктны могут иметь разные параметры кэширования
+*/
+
+/*
+usage = CacheConcurrencyStrategy - как именно эта сущность будет использоваться
+READ_ONLY - отсутствует слежение за обновлениями сущности
+READ_WRITE - если сущность меняется в кэше 1го уровня, то hibernate изменит её
+и в кэше 2го уровня
+*/
+
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE, region = "CacheForRegion")
 @Table(name = "employee")
 public class Employee implements Serializable{
