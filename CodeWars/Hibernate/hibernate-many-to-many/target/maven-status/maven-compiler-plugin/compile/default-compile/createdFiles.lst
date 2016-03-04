@@ -1,0 +1,3 @@
+com/codewars/hibernate/Actor.class
+com/codewars/hibernate/Film.class
+com/codewars/hibernate/HibernateManyToMany.class
