@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration>
+
+    <appender name="consoleLog" class="org.apache.log4j.ConsoleAppender">
+        <param name="target" value="System.out"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{HH:mm:ss} [%t] %-5p %c{4}: %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="File" class="org.apache.log4j.FileAppender">
+        <param name="file" value="logs/hibernate-logs.log"/>
+        <param name="append" value="false"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{HH:mm:ss} [%t] %-5p %c{4}: %m%n"/>
+        </layout>
+    </appender>
+
+    <!-- all, trace, debug, info, warn, error, fatal, off -->
+
+    <category name="com.codewars.hibernate">
+        <priority value="trace"/>
+        <appender-ref ref="File"/>
+    </category>
+
+    <category name="org.hibernate.SQL">
+        <priority value="debug"/>
+        <appender-ref ref="consoleLog"/>
+    </category>
+
+    <category name="org.hibernate.type">
+        <priority value="trace"/>
+        <appender-ref ref="consoleLog"/>
+    </category>
+
+</log4j:configuration>

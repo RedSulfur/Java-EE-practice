@@ -20,7 +20,7 @@ import java.util.Map;
 
 /*
 1 - level - Session level
-2 level -
+2 level - Session Factory, pluggable
 */
 
 //    Кэш 1-го уровня работает на уровне сессии
@@ -63,13 +63,14 @@ public class HibernateSecondLevelCache {
         // Делаем дважды для демонстрации - SELECT вызывается один раз или два
         // в зависимости от настроек кэша
 
-//        checkQuery(sessionFactory);
-//        checkQuery(sessionFactory);
+        checkQuery(sessionFactory);
+        log.info("====================================================");
+        checkQuery(sessionFactory);
 
         // Делаем дважды для демонстрации - SELECT вызывается один раз или два
         // в зависимости от настроек кэша
-        checkOne(sessionFactory);
-        checkOne(sessionFactory);
+//        checkOne(sessionFactory);
+//        checkOne(sessionFactory);
 
         // Обращение к статистике только при включенном кэше
 //        showStatistics(sessionFactory);
@@ -86,10 +87,24 @@ public class HibernateSecondLevelCache {
         // И обязательно в hibernate.cfg.xml дожно быть установлено
         // <property name="cache.use_query_cache">true</property>
         // Если включить без кэша - то интересный эффект
+
+
+       /*
+       В кэш запросов, записываются сам запрос (select), а
+       в качестве значения будет идентификаторы результатов (не все поля
+       обьектов employee, а только его идентификаторы)
+       */
+
+       /*
+       Employee будут выбираться в соответствии с их идентификаторами (по
+       одному запросу на каждый идентификатор), полученными
+       из кэша запросов, куда они были помещены при первом запуске checkQuery
+       */
+
         createQuery.setCacheable(true);
         List<Employee> regionList1 = createQuery.list();
         for (Employee e : regionList1) {
-            log.info("Region: {}", e);
+            log.info("Employee: {}", e);
         }
         session.getTransaction().commit();
     }

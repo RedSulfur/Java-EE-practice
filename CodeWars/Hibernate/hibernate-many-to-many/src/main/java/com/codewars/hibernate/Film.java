@@ -2,6 +2,7 @@ package com.codewars.hibernate;
 
 
 import javax.persistence.*;
+import java.io.ObjectInputStream;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.List;
@@ -14,31 +15,20 @@ import java.util.Set;
 @Table(name = "films")
 public class Film implements Serializable{
 
+    private Long filmId;
+    private String filmName;
+    private Set<Films_Actors> films_actors = new HashSet<Films_Actors>(0);
+
+    public Film() {
+    }
+
+    public Film(String filmName) {
+        this.filmName = filmName;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "film_id")
-    private Long filmId;
-
-    @Column(name = "film_name")
-    private String filmName;
-
-    @ManyToMany(cascade = {CascadeType.PERSIST,CascadeType.MERGE}, fetch = FetchType.LAZY)
-    @JoinTable(name = "films_actors",
-    joinColumns = @JoinColumn(name = "film_id"),
-    inverseJoinColumns = @JoinColumn(name = "actor_ident"))
-    private Set<Actor> actorsList;
-
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "film")
-    private List<Films_Actors> films_actors;
-
-    public List<Films_Actors> getFilms_actorsList() {
-        return films_actors;
-    }
-
-    public void setFilms_actorsList(List<Films_Actors> films_actors) {
-        this.films_actors = films_actors;
-    }
-
     public Long getFilmId() {
         return filmId;
     }
@@ -47,6 +37,7 @@ public class Film implements Serializable{
         this.filmId = filmId;
     }
 
+    @Column(name = "film_name")
     public String getFilmName() {
         return filmName;
     }
@@ -55,19 +46,13 @@ public class Film implements Serializable{
         this.filmName = filmName;
     }
 
-    public Set<Actor> getActorsList() {
-        return actorsList;
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "pk.film")
+    public Set<Films_Actors> getFilms_actors() {
+        return films_actors;
     }
 
-    public void setActorsList(Set<Actor> actorsList) {
-        this.actorsList = actorsList;
-    }
-
-    public void addActor(Actor actor) {
-        if (actorsList== null) {
-            actorsList = new HashSet<Actor>();
-        }
-        actorsList.add(actor);
+    public void setFilms_actors(Set<Films_Actors> films_actors) {
+        this.films_actors = films_actors;
     }
 
     @Override

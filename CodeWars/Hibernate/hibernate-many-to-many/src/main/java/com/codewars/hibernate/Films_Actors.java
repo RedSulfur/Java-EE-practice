@@ -10,44 +10,48 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "films_actors")
+@AssociationOverrides({
+        @AssociationOverride(name = "pk.actor",
+        joinColumns = @JoinColumn(name = "actor_ident")),
+        @AssociationOverride(name = "pk.film",
+        joinColumns = @JoinColumn(name = "film_id"))
+})
 public class Films_Actors implements Serializable{
 
-    @Id
-    @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.REFRESH}, fetch = FetchType.LAZY)
-    @JoinColumn(name = "film_id")
-    private Film film;
-
-    @Id
-    @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.REFRESH}, fetch = FetchType.LAZY)
-    @JoinColumn(name = "actor_ident")
-    private Actor actor;
-
-    @Column(name = "actorrole")
+    private Films_Actors_Id pk = new Films_Actors_Id();
     private String role;
 
     public Films_Actors() {
     }
 
-    public Films_Actors(String role) {
-        this.role = role;
+    @EmbeddedId
+    public Films_Actors_Id getPk() {
+        return pk;
     }
 
-    public Film getFilm() {
-        return film;
+    public void setPk(Films_Actors_Id pk) {
+        this.pk = pk;
     }
 
-    public void setFilm(Film film) {
-        this.film = film;
-    }
-
+    @Transient
     public Actor getActor() {
-        return actor;
+        return getPk().getActor();
     }
 
     public void setActor(Actor actor) {
-        this.actor = actor;
+        getPk().setActor(actor);
     }
 
+    @Transient
+    public Film getFilm() {
+        return getPk().getFilm();
+    }
+
+    public void setFilm(Film film) {
+        getPk().setFilm(film);
+    }
+
+    @Column(name = "actorrole")
     public String getRole() {
         return role;
     }
@@ -56,4 +60,44 @@ public class Films_Actors implements Serializable{
         this.role = role;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Films_Actors other = (Films_Actors) obj;
+        if (this.getPk() != other.getPk() && (this.getPk() == null || !this.getPk().equals(other.getPk()))) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 71 * hash + (this.getPk() != null ? this.getPk().hashCode() : 0);
+        return hash;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -23,7 +23,7 @@ READ_WRITE - если сущность меняется в кэше 1го уро
 и в кэше 2го уровня
 */
 
-@Cache(usage = CacheConcurrencyStrategy.READ_WRITE, region = "CacheForRegion")
+//@Cache(usage = CacheConcurrencyStrategy.READ_WRITE, region = "CacheForRegion")
 @Table(name = "employee")
 public class Employee implements Serializable{
 

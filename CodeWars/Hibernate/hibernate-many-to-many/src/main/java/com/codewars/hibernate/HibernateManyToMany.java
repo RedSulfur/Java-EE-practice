@@ -43,6 +43,8 @@ public class HibernateManyToMany {
 
 //        insertEntity();
 
+        deleteEntity();
+
 
       /*  List<Film> filmList = s.createCriteria(Film.class).list();
         for (Film film : filmList) {
@@ -62,15 +64,14 @@ public class HibernateManyToMany {
             }
         }*/
 
-    /*    List<Film> filmList = s.createCriteria(Film.class).list();
+        List<Film> filmList = s.createCriteria(Film.class).list();
         for(Film film : filmList){
             log.debug("\n");
             log.debug("Film title: {}", film.getFilmName());
-            for (Films_Actors info : film.getFilms_actorsList()){
+            for (Films_Actors info : film.getFilms_actors()){
                 log.debug("Actor name: {}, Actor role: {}", info.getActor().getActorName(), info.getRole());
                 }
             }
-*/
 
         s.getTransaction().commit();
 
@@ -80,10 +81,35 @@ public class HibernateManyToMany {
 
 }
 
+    public static void deleteEntity() {
+
+        Session session = sessionFactory.getCurrentSession();
+
+        Actor actor = (Actor) session.load(Actor.class, new Long(11));
+
+        session.delete(actor);
+
+    }
+
     private static void insertEntity() {
         Session session = sessionFactory.getCurrentSession();
 
-        Film newFilm = new Film();
+        Actor actor = new Actor();
+        actor.setActorName("Evolved Hibernate");
+
+        Film film1 = new Film("My new test");
+        session.save(film1);
+
+        Films_Actors films_actors = new Films_Actors();
+        films_actors.setActor(actor);
+        films_actors.setFilm(film1);
+        films_actors.setRole("To display understanding");
+
+        actor.getFilms_actors().add(films_actors);
+
+        session.save(actor);
+
+      /*  Film newFilm = new Film();
         newFilm.setFilmName("Test Film");
         session.save(newFilm);
 
@@ -91,7 +117,7 @@ public class HibernateManyToMany {
         oldActor.setActorName("Paul Calderón");
         session.save(oldActor);
         newFilm.addActor(oldActor);
-        session.save(newFilm);
+        session.save(newFilm);*/
     }
 
 

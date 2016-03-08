@@ -20,9 +20,10 @@
         <property name="hbm2ddl.auto">update</property>
 
         <property name="cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
-        <property name="cache.use_second_level_cache">true</property>
+        <!--<property name="cache.use_second_level_cache">true</property>-->
         <property name="generate_statistics">true</property>
         <property name="cache.use_structured_entries">true</property>
+
         <property name="cache.use_query_cache">true</property>
 
         <mapping class="com.codewars.hibernate.Employee"/>

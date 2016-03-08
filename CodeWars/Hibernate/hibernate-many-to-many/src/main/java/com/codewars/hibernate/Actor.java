@@ -15,37 +15,29 @@ import java.util.Set;
 @Table(name = "actors")
 public class Actor implements Serializable{
 
-    @Id
-    @GeneratedValue (strategy = GenerationType.IDENTITY)
-    @Column(name = "actor_id")
     private Long actorId;
-
-    @Column(name = "actor_name")
     private String actorName;
+    private Set<Films_Actors> films_actors = new HashSet<Films_Actors>(0);
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "actor")
-    private List<Films_Actors> films_actors;
-
-    @ManyToMany (cascade = {CascadeType.PERSIST, CascadeType.MERGE},
-            fetch = FetchType.LAZY, mappedBy = "actorsList")
-    private Set<Film> filmlist;
-
-    public List<Films_Actors> getFilms_actorsList() {
-        return films_actors;
+    public Actor() {
     }
 
-    public void setFilms_actorsList(List<Films_Actors> films_actors) {
-        this.films_actors = films_actors;
+    public Actor(String actorName) {
+        this.actorName = actorName;
     }
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "actor_id", unique = true, nullable = false)
     public Long getActorId() {
-        return actorId;
+        return this.actorId;
     }
 
     public void setActorId(Long actorId) {
         this.actorId = actorId;
     }
 
+    @Column(name = "actor_name")
     public String getActorName() {
         return actorName;
     }
@@ -54,19 +46,13 @@ public class Actor implements Serializable{
         this.actorName = actorName;
     }
 
-    public Set<Film> getFilmlist() {
-        return filmlist;
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "pk.actor", cascade = CascadeType.ALL)
+    public Set<Films_Actors> getFilms_actors() {
+        return films_actors;
     }
 
-    public void setFilmlist(Set<Film> filmlist) {
-        this.filmlist = filmlist;
-    }
-
-    public void addFilm(Film film) {
-        if (filmlist == null) {
-            filmlist = new HashSet<Film>();
-        }
-        filmlist.add(film);
+    public void setFilms_actors(Set<Films_Actors> films_actors) {
+        this.films_actors = films_actors;
     }
 
     @Override

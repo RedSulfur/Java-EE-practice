@@ -18,6 +18,7 @@
         <mapping class="com.codewars.hibernate.Actor"/>
         <mapping class="com.codewars.hibernate.Film"/>
         <mapping class="com.codewars.hibernate.Films_Actors"/>
+        <mapping class="com.codewars.hibernate.Films_Actors_Id"/>
     </session-factory>
 
 </hibernate-configuration>
