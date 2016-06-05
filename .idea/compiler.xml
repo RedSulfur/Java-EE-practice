@@ -38,6 +38,7 @@
         <module name="hibernate-many-to-many" />
         <module name="hibernate-many-to-one" />
         <module name="hibernate-second-level-cache" />
+        <module name="Hibernatelove2code" />
         <module name="inheritance-table-per-class" />
         <module name="JDBC" />
         <module name="jms-ear" />
@@ -59,6 +60,7 @@
         <module name="spring-integration-06" />
         <module name="Spring_Hibernate" />
         <module name="Spring_Hibernate_Quentin" />
+        <module name="Udemylove2code" />
         <module name="UdemyLove2Code" />
         <module name="war-client" />
         <module name="war-ejb" />
@@ -76,15 +78,16 @@
       <module name="form-servlet" target="1.5" />
       <module name="full_project" target="1.5" />
       <module name="GS_Blog" target="1.5" />
-      <module name="Hibernate" target="1.5" />
-      <module name="hibernate-config-xml-mapping-annotations" target="1.5" />
-      <module name="hibernate-criteria" target="1.5" />
-      <module name="hibernate-crud" target="1.5" />
-      <module name="hibernate-inheritance-joined" target="1.5" />
-      <module name="hibernate-many-to-many" target="1.5" />
-      <module name="hibernate-many-to-one" target="1.5" />
-      <module name="hibernate-second-level-cache" target="1.5" />
-      <module name="inheritance-table-per-class" target="1.5" />
+      <module name="Hibernate" target="1.7" />
+      <module name="hibernate-config-xml-mapping-annotations" target="1.7" />
+      <module name="hibernate-criteria" target="1.7" />
+      <module name="hibernate-crud" target="1.7" />
+      <module name="hibernate-inheritance-joined" target="1.7" />
+      <module name="hibernate-many-to-many" target="1.7" />
+      <module name="hibernate-many-to-one" target="1.7" />
+      <module name="hibernate-second-level-cache" target="1.7" />
+      <module name="Hibernatelove2code" target="1.5" />
+      <module name="inheritance-table-per-class" target="1.7" />
       <module name="Integration" target="1.5" />
       <module name="JDBC" target="1.5" />
       <module name="jms" target="1.5" />
@@ -95,7 +98,7 @@
       <module name="JUnit-01" target="1.5" />
       <module name="lib" target="1.5" />
       <module name="param-servlet" target="1.5" />
-      <module name="practice" target="1.5" />
+      <module name="practice" target="1.7" />
       <module name="servlet_redirect_forward" target="1.5" />
       <module name="Servlets" target="1.5" />
       <module name="session-servlet" target="1.5" />
@@ -115,6 +118,7 @@
       <module name="Spring_Hibernate" target="1.5" />
       <module name="Spring_Hibernate_Quentin" target="1.5" />
       <module name="stateless-ejb-local-remote" target="1.5" />
+      <module name="Udemylove2code" target="1.7" />
       <module name="UdemyLove2Code" target="1.6" />
       <module name="war-client" target="1.5" />
       <module name="war-ejb" target="1.5" />

@@ -26,6 +26,7 @@
         <module>hibernate-crud</module>
         <module>inheritance-table-per-class</module>
         <module>hibernate-second-level-cache</module>
+        <module>Hibernatelove2code</module>
     </modules>
 
 
