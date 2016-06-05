@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="servlet_redirect_forward:war">
     <output-path>$PROJECT_DIR$/Servlets/servlet_redirect_forward/target</output-path>
-    <root id="archive" name="servlet_redirect_forward.war">
+    <root id="archive" name="servlet_redirect_forward-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="servlet_redirect_forward:war exploded" />
     </root>
   </artifact>

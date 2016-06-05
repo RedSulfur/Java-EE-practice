@@ -17,6 +17,7 @@ public class BaseballCoach implements Coach {
         return fortuneService.getFortune();
     }
 
+
     @Override
     public String getDailyWorkout() {
         return "Do 40 chin-ups and its ok";

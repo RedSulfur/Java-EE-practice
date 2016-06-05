@@ -6,12 +6,6 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/EJB/jms/jms-ear/target/jms-ear-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="archive" name="jms-ejb-1.0-SNAPSHOT.jar">
-        <element id="artifact" artifact-name="jms-ejb:ejb exploded" />
-      </element>
-      <element id="archive" name="jms-war-1.0-SNAPSHOT.war">
-        <element id="artifact" artifact-name="jms-war:war exploded" />
-      </element>
     </root>
   </artifact>
 </component>

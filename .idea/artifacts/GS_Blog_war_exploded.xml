@@ -6,10 +6,6 @@
         <element id="directory" name="classes">
           <element id="module-output" name="GS_Blog" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.27" />
-        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/Servlets/GS_Blog/target/GS_Blog/META-INF/MANIFEST.MF" />

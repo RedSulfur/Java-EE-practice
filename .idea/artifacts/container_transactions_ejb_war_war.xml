@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="container-transactions-ejb-war:war">
     <output-path>$PROJECT_DIR$/EJB/container-transactions-ejb-war/target</output-path>
-    <root id="archive" name="container-transactions-ejb-war.war">
+    <root id="archive" name="container-transactions-ejb-war-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="container-transactions-ejb-war:war exploded" />
     </root>
   </artifact>

@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="ear" name="ear-ejb:ear">
     <output-path>$PROJECT_DIR$/EJB/stateless-ejb-local-remote/ear-ejb/target</output-path>
-    <root id="archive" name="ear-ejb.ear">
+    <root id="archive" name="ear-ejb-1.0-SNAPSHOT.ear">
       <element id="artifact" artifact-name="ear-ejb:ear exploded" />
     </root>
   </artifact>

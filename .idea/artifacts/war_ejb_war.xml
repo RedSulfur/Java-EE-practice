@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="war-ejb:war">
     <output-path>$PROJECT_DIR$/EJB/stateless-ejb-local-remote/war-ejb/target</output-path>
-    <root id="archive" name="war-ejb.war">
+    <root id="archive" name="war-ejb-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="war-ejb:war exploded" />
     </root>
   </artifact>

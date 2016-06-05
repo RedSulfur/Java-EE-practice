@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="ear" name="SimpleWebService-ear:ear">
     <output-path>$PROJECT_DIR$/Web-Services/JAX-WS/SimpleWebService-ear/target</output-path>
-    <root id="archive" name="SimpleWebService-ear.ear">
+    <root id="archive" name="SimpleWebService-ear-1.0-SNAPSHOT.ear">
       <element id="artifact" artifact-name="SimpleWebService-ear:ear exploded" />
     </root>
   </artifact>
