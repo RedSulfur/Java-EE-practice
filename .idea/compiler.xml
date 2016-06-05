@@ -35,7 +35,6 @@
         <module name="hibernate-criteria" />
         <module name="hibernate-crud" />
         <module name="hibernate-inheritance-joined" />
-        <module name="hibernate-many-to-many" />
         <module name="hibernate-many-to-one" />
         <module name="hibernate-second-level-cache" />
         <module name="Hibernatelove2code" />
@@ -65,6 +64,13 @@
         <module name="war-client" />
         <module name="war-ejb" />
       </profile>
+      <profile default="false" name="Annotation profile for practice" enabled="true">
+        <sourceOutputDir name="../../Spring/Spring_Hibernate_Quentin/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../Spring/Spring_Hibernate_Quentin/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hibernate-many-to-many" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="6kyu" target="1.5" />
@@ -83,7 +89,7 @@
       <module name="hibernate-criteria" target="1.7" />
       <module name="hibernate-crud" target="1.7" />
       <module name="hibernate-inheritance-joined" target="1.7" />
-      <module name="hibernate-many-to-many" target="1.7" />
+      <module name="hibernate-many-to-many" target="1.6" />
       <module name="hibernate-many-to-one" target="1.7" />
       <module name="hibernate-second-level-cache" target="1.7" />
       <module name="Hibernatelove2code" target="1.5" />
@@ -116,7 +122,7 @@
       <module name="spring-integration-05" target="1.5" />
       <module name="spring-integration-06" target="1.5" />
       <module name="Spring_Hibernate" target="1.5" />
-      <module name="Spring_Hibernate_Quentin" target="1.5" />
+      <module name="Spring_Hibernate_Quentin" target="1.6" />
       <module name="stateless-ejb-local-remote" target="1.5" />
       <module name="Udemylove2code" target="1.7" />
       <module name="UdemyLove2Code" target="1.6" />

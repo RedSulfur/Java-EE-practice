@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd" >
+<hibernate-configuration>
+
+    <session-factory>
+
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://127.0.0.1:5432/DB-java-ee</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">postgres</property>
+        <property name="default_schema">udemy</property>
+        <property name="connection.pool_size">1</property>
+        <property name="dialect">org.hibernate.dialect.PostgreSQL9Dialect</property>
+
+        <!--context is 'thread' which means the session factory will bind the session
+        to the thread from which openSession(...) is called
+        you can later call sessionFactory.getCurrentSession() which will return
+         the session that is bound to the currently running thread-->
+        <property name="current_session_context_class">thread</property>
+
+        <!--when the hibernate executes it will print out the sql that it is going
+        to use when it sends it over to an actual database -->
+        <property name="show_sql">true</property>
+
+    </session-factory>
+
+</hibernate-configuration>
