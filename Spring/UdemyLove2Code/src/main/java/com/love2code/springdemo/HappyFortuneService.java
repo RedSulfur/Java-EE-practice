@@ -1,7 +1,7 @@
 package com.love2code.springdemo;
 
 
-import com.love2code.springdemo.com.love2code.spring.interfaces.FortuneService;
+import com.love2code.spring.interfaces.FortuneService;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -17,8 +17,7 @@ public class HappyFortuneService implements FortuneService {
         try {
             BufferedReader reader = new BufferedReader(
                     new FileReader("/home/sulfur/IdeaProjects/CodeWars/Spring/UdemyLove2Code/" +
-                            "src/main/java/com/love2code/springdemo/com/love2code/spring/" +
-                            "interfaces/Coach.java"));
+                            "src/main/java/com/love2code/springdemo/HappyFortuneService.java"));
 
             while ((s = reader.readLine()) != null) {
 

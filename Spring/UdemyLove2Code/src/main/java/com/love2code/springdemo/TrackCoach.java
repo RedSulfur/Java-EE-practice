@@ -1,8 +1,8 @@
 package com.love2code.springdemo;
 
 
-import com.love2code.springdemo.com.love2code.spring.interfaces.Coach;
-import com.love2code.springdemo.com.love2code.spring.interfaces.FortuneService;
+import com.love2code.spring.interfaces.Coach;
+import com.love2code.spring.interfaces.FortuneService;
 
 public class TrackCoach implements Coach {
 
@@ -14,7 +14,7 @@ public class TrackCoach implements Coach {
 
     @Override
     public String getDailyFortune() {
-        return "\n THIS is actually the different one\n\n" + fortuneService.getFortune();
+        return "\nTHIS is actually the different one\n\n" + fortuneService.getFortune();
     }
 
     @Override

@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0993c687-29a5-4160-a459-82e5ea2e17fb" name="Default" comment="" />
+    <list default="true" id="0993c687-29a5-4160-a459-82e5ea2e17fb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/CricketCoach.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/SetterDemoApp.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/com/love2code/springdemo/com/love2code/spring/interfaces/Coach.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/com/love2code/springdemo/com/love2code/spring/interfaces/FortuneService.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/com/love2code/spring/interfaces/Coach.java" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/spring/interfaces/Coach.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/com/love2code/spring/interfaces/FortuneService.java" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/spring/interfaces/FortuneService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/com/love2code/springdemo/BaseballCoach.class" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/com/love2code/springdemo/BaseballCoach.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/com/love2code/springdemo/HappyFortuneService.class" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/com/love2code/springdemo/HappyFortuneService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/com/love2code/springdemo/MyApp.class" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/com/love2code/springdemo/MyApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/com/love2code/springdemo/TrackCoach.class" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/com/love2code/springdemo/TrackCoach.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/BaseballCoach.java" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/BaseballCoach.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/HappyFortuneService.java" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/HappyFortuneService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/MyApp.java" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/MyApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/TrackCoach.java" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/TrackCoach.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/Spring/UdemyLove2Code/target/classes/applicationContext.xml" />
+    </list>
     <ignored path="CodeWars.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -126,11 +145,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/MyApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32012194">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,20 +160,34 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state vertical-scroll-proportion="-16.875">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrackCoach.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/TrackCoach.java">
+      <file leaf-file-name="SetterDemoApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/SetterDemoApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7356948">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CricketCoach.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/CricketCoach.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,6 +205,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -180,8 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Servlets/form-servlet/src/main/java/com/codewars/model/User.java" />
-        <option value="$PROJECT_DIR$/Servlets/form-servlet/src/main/java/com/codewars/servlet/RegisterServlet.java" />
         <option value="$PROJECT_DIR$/Servlets/form-servlet/src/main/webapp/sample.jsp" />
         <option value="$PROJECT_DIR$/Servlets/form-servlet/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/Servlets/param-servlet/pom.xml" />
@@ -229,8 +263,10 @@
         <option value="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/BaseballCoach.java" />
         <option value="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/MyApp.java" />
         <option value="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/HappyFortuneService.java" />
-        <option value="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/TrackCoach.java" />
+        <option value="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/CricketCoach.java" />
+        <option value="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/SetterDemoApp.java" />
       </list>
     </option>
   </component>
@@ -269,10 +305,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="-4" />
-    <option name="width" value="1309" />
-    <option name="height" value="772" />
+    <option name="x" value="711" />
+    <option name="y" value="46" />
+    <option name="width" value="644" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -281,7 +317,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -299,8 +335,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -429,17 +465,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="love2code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="springdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeWars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CodeWars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UdemyLove2Code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="love2code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -476,7 +550,7 @@
       <recent name="$PROJECT_DIR$/Hibernate/inheritance-table-per-class/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyApp">
+  <component name="RunManager" selected="Application.SetterDemoApp">
     <configuration default="false" name="SortTest.testSortStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -557,6 +631,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.love2code.springdemo.SpringHelloApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UdemyLove2Code" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SetterDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.love2code.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.love2code.springdemo.SetterDemoApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1191,7 +1285,7 @@
         </option>
       </method>
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Application.SimpleWebServiceClient" />
       <item index="1" class="java.lang.String" itemvalue="JBoss Server.EjbTransactionsJPA" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
@@ -1199,13 +1293,15 @@
       <item index="4" class="java.lang.String" itemvalue="JUnit.SortTest" />
       <item index="5" class="java.lang.String" itemvalue="Application.MyApp" />
       <item index="6" class="java.lang.String" itemvalue="Application.SpringHelloApp" />
+      <item index="7" class="java.lang.String" itemvalue="Application.SetterDemoApp" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.MyApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SpringHelloApp" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SortTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SortTest.testSortStrings" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.SetterDemoApp" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MyApp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SpringHelloApp" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SortTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SortTest.testSortStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -1313,6 +1409,9 @@
       <workItem from="1465063581787" duration="5495000" />
       <workItem from="1465075194641" duration="306000" />
       <workItem from="1465075859444" duration="574000" />
+      <workItem from="1465122698753" duration="2285000" />
+      <workItem from="1465125752232" duration="451000" />
+      <workItem from="1465126275327" duration="506000" />
     </task>
     <servers />
   </component>
@@ -1349,7 +1448,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359198000" />
+    <option name="totallyTimeSpent" value="362440000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1361,8 +1460,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
-    <editor active="false" />
+    <frame x="711" y="46" width="644" height="722" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.22137405" sideWeight="0.44514602" order="7" side_tool="false" content_ui="tabs" />
@@ -1381,11 +1480,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45648855" sideWeight="0.554854" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37301588" sideWeight="0.554854" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22900763" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29597473" sideWeight="0.54503816" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28650355" sideWeight="0.45496184" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6710963" sideWeight="0.45496184" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1434,20 +1533,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Servlets/GS_Blog/src/main/webapp/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.375">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Servlets/GS_Blog/src/main/java/com/gemini/blog/controller/BlogAdminServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Servlets/GS_Blog/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.020942409">
@@ -1745,11 +1830,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/com/love2code/spring/interfaces/Coach.java">
+    <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/spring/interfaces/Coach.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1923077">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1757,61 +1841,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61538464">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/com/love2code/spring/interfaces/FortuneService.java">
+    <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/spring/interfaces/FortuneService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15384616">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/TrackCoach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1744186">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/HappyFortuneService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49760765">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.3488372">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/MyApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/CricketCoach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/TrackCoach.java">
+    <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/SetterDemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/UdemyLove2Code/src/main/java/com/love2code/springdemo/MyApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32012194">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.7356948">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

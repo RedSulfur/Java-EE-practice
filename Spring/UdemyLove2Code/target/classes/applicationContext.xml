@@ -19,5 +19,11 @@
         <constructor-arg ref="myFortuneService"></constructor-arg>
     </bean>
 
+    <bean id="myCricketCoach"
+          class="com.love2code.springdemo.CricketCoach">
+          <property name="fortuneService" ref="myFortuneService" ></property>
+          <property name="emailAddress" value="somevalue@gmail.com"></property>
+          <property name="team" value="Team Sample"></property>
+    </bean>
 
 </beans>

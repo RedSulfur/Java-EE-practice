@@ -1,8 +1,8 @@
 package com.love2code.springdemo;
 
 
-import com.love2code.springdemo.com.love2code.spring.interfaces.Coach;
-import com.love2code.springdemo.com.love2code.spring.interfaces.FortuneService;
+import com.love2code.spring.interfaces.Coach;
+import com.love2code.spring.interfaces.FortuneService;
 
 public class BaseballCoach implements Coach {
 
