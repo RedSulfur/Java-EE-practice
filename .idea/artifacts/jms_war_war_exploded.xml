@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jms-war:war exploded">
+    <output-path>$PROJECT_DIR$/EJB/jms/jms-war/target/jms-war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jms-war" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/EJB/jms/jms-war/target/jms-war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="jms-war/web/Web" />
+    </root>
+  </artifact>
+</component>

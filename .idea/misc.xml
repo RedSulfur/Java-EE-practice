@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="ejb" url="file://$PROJECT_DIR$/EJB/jms/jms-ejb" />
+    <file type="ejb" url="file://$PROJECT_DIR$/Web-Services/JAX-WS/SimpleWebService-ejb" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/EJB/jms/jms-ear" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/EJB/stateless-ejb-local-remote/ear-client" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/EJB/stateless-ejb-local-remote/ear-ejb" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/Web-Services/JAX-WS/SimpleWebService-ear" />
+    <file type="web" url="file://$PROJECT_DIR$/EJB/bean-ejb-transactions-war" />
+    <file type="web" url="file://$PROJECT_DIR$/EJB/container-transactions-ejb-war" />
+    <file type="web" url="file://$PROJECT_DIR$/EJB/continer-transactions-ejb-jpa-war" />
+    <file type="web" url="file://$PROJECT_DIR$/EJB/jms/jms-war" />
+    <file type="web" url="file://$PROJECT_DIR$/EJB/stateless-ejb-local-remote/war-client" />
+    <file type="web" url="file://$PROJECT_DIR$/EJB/stateless-ejb-local-remote/war-ejb" />
+    <file type="web" url="file://$PROJECT_DIR$/Servlets/filter-servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/Servlets/form-servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/Servlets/full_project" />
+    <file type="web" url="file://$PROJECT_DIR$/Servlets/GS_Blog" />
+    <file type="web" url="file://$PROJECT_DIR$/Servlets/param-servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/Servlets/servlet_redirect_forward" />
+    <file type="web" url="file://$PROJECT_DIR$/Servlets/session-servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring/Integration/spring-integration-02" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring/UdemyLove2Code" />
+    <type id="Spring" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/JUnit/JUnit-01/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring/Integration/spring-integration-01/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring/Integration/spring-integration-05/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring/Integration/spring-integration-06/pom.xml" />
+        <option value="$PROJECT_DIR$/EJB/bean-ejb-transactions-war/pom.xml" />
+        <option value="$PROJECT_DIR$/EJB/container-transactions-ejb-war/pom.xml" />
+        <option value="$PROJECT_DIR$/EJB/continer-transactions-ejb-jpa-war/pom.xml" />
+        <option value="$PROJECT_DIR$/Web-Services/pom.xml" />
+        <option value="$PROJECT_DIR$/Web-Services/JAX-WS/pom.xml" />
+        <option value="$PROJECT_DIR$/Web-Services/JAX-WS/SimpleWebSErvice-ear/pom.xml" />
+        <option value="$PROJECT_DIR$/Web-Services/JAX-WS/SimpleWebService-client/pom.xml" />
+        <option value="$PROJECT_DIR$/Web-Services/JAX-WS/SimpleWebService-ejb/pom.xml" />
+        <option value="$PROJECT_DIR$/Web-Services/JAX-WS/SimpleWebService-ear/pom.xml" />
+        <option value="$PROJECT_DIR$/Servlets/servlet_redirect_forward/pom.xml" />
+        <option value="$PROJECT_DIR$/Servlets/full_project/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring/UdemyLove2Code/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="WebServicesPlugin" addRequiredLibraries="true" />
+</project>

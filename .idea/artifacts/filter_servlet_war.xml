@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="filter-servlet:war">
+    <output-path>$PROJECT_DIR$/Servlets/filter-servlet/target</output-path>
+    <root id="archive" name="filter-servlet.war">
+      <element id="artifact" artifact-name="filter-servlet:war exploded" />
+    </root>
+  </artifact>
+</component>

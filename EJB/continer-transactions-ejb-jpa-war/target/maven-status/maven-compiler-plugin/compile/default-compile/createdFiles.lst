@@ -1,0 +1,4 @@
+com/codewars/ejb/ContainerManagedTransactionsEJBJPA.class
+com/codewars/ejb/Servlet.class
+com/codewars/ejb/entity/Actor.class
+com/codewars/ejb/exception/BusinessException.class

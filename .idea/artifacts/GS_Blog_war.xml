@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GS_Blog:war">
+    <output-path>$PROJECT_DIR$/Servlets/GS_Blog/target</output-path>
+    <root id="archive" name="GS_Blog.war">
+      <element id="artifact" artifact-name="GS_Blog:war exploded" />
+    </root>
+  </artifact>
+</component>

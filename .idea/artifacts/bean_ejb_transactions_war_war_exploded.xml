@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bean-ejb-transactions-war:war exploded">
+    <output-path>$PROJECT_DIR$/EJB/bean-ejb-transactions-war/target/bean-ejb-transactions-war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bean-ejb-transactions-war" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/EJB/bean-ejb-transactions-war/target/bean-ejb-transactions-war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="bean-ejb-transactions-war/web/Web" />
+    </root>
+  </artifact>
+</component>

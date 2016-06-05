@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>practice</artifactId>
+        <groupId>com.codewars</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.codewars</groupId>
+    <artifactId>hibernate</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Hibernate</name>
+
+    <modules>
+        <module>hibernate-many-to-one</module>
+        <module>hibernate-config-xml-mapping-annotations</module>
+        <module>hibernate-many-to-many</module>
+        <module>hibernate-inheritance-joined</module>
+        <module>hibernate-criteria</module>
+        <module>hibernate-crud</module>
+        <module>inheritance-table-per-class</module>
+        <module>hibernate-second-level-cache</module>
+    </modules>
+
+
+</project>

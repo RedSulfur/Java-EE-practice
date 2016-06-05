@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - DB-java-ee@localhost" uuid="f6ca3925-8867-4631-9af5-28ff9f0df261">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>DB-java-ee.films DB-java-ee.pg_catalog DB-java-ee.public</schema-pattern>
+      <default-schemas>DB-java-ee.films DB-java-ee.public</default-schemas>
+    </data-source>
+  </component>
+</project>

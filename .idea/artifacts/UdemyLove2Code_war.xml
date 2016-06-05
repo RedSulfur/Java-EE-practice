@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="UdemyLove2Code:war">
+    <output-path>$PROJECT_DIR$/Spring/UdemyLove2Code/target</output-path>
+    <root id="archive" name="udemyLove2Code-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="UdemyLove2Code:war exploded" />
+    </root>
+  </artifact>
+</component>

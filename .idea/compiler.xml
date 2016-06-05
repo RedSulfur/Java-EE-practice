@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for JDBC" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="JDBC" />
+      </profile>
+      <profile default="false" name="Annotation profile for JUnit-01" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="JUnit-01" />
+      </profile>
+      <profile default="false" name="Annotation profile for hibernate-many-to-one" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hibernate-many-to-one" />
+      </profile>
+      <profile default="false" name="Annotation profile for hibernate-config-xml-mapping-annotations" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hibernate-config-xml-mapping-annotations" />
+      </profile>
+      <profile default="false" name="Annotation profile for hibernate-many-to-many" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hibernate-many-to-many" />
+      </profile>
+      <profile default="false" name="Annotation profile for hibernate-inheritance-joined" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hibernate-inheritance-joined" />
+      </profile>
+      <profile default="false" name="Annotation profile for hibernate-criteria" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hibernate-criteria" />
+      </profile>
+      <profile default="false" name="Annotation profile for hibernate-crud" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hibernate-crud" />
+      </profile>
+      <profile default="false" name="Annotation profile for inheritance-table-per-class" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="inheritance-table-per-class" />
+      </profile>
+      <profile default="false" name="Annotation profile for hibernate-second-level-cache" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hibernate-second-level-cache" />
+      </profile>
+      <profile default="false" name="Annotation profile for Spring_Hibernate" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Spring_Hibernate" />
+      </profile>
+      <profile default="false" name="Annotation profile for Spring_Hibernate_Quentin" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="Spring_Hibernate_Quentin" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-integration-01" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-integration-01" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-integration-03" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-integration-03" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-integration-04" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-integration-04" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="jms-ear" />
+        <module name="spring-integration-02" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-integration-05" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-integration-05" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring-integration-06" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="spring-integration-06" />
+      </profile>
+      <profile default="false" name="Annotation profile for lib" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="lib" />
+      </profile>
+      <profile default="false" name="Annotation profile for war-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="war-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for ear-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ear-client" />
+      </profile>
+      <profile default="false" name="Annotation profile for ear-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="ear-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for war-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="war-client" />
+      </profile>
+      <profile default="false" name="Annotation profile for bean-ejb-transactions-war" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="bean-ejb-transactions-war" />
+      </profile>
+      <profile default="false" name="Annotation profile for container-transactions-ejb-war" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="container-transactions-ejb-war" />
+      </profile>
+      <profile default="false" name="Annotation profile for continer-transactions-ejb-jpa-war" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="continer-transactions-ejb-jpa-war" />
+      </profile>
+      <profile default="false" name="Annotation profile for SimpleWebSErvice-ear" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for SimpleWebService-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="SimpleWebService-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for SimpleWebService-ear" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="SimpleWebService-ear" />
+      </profile>
+      <profile default="false" name="Annotation profile for SimpleWebService-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="SimpleWebService-client" />
+      </profile>
+      <profile default="false" name="Annotation profile for jms-ejb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="jms-ejb" />
+      </profile>
+      <profile default="false" name="Annotation profile for jms-war" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="jms-war" />
+      </profile>
+      <profile default="false" name="Annotation profile for servlet_redirect_forward" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="servlet_redirect_forward" />
+      </profile>
+      <profile default="false" name="Annotation profile for form-servlet" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="form-servlet" />
+      </profile>
+      <profile default="false" name="Annotation profile for param-servlet" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="param-servlet" />
+      </profile>
+      <profile default="false" name="Annotation profile for session-servlet" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="session-servlet" />
+      </profile>
+      <profile default="false" name="Annotation profile for filter-servlet" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="filter-servlet" />
+      </profile>
+      <profile default="false" name="Annotation profile for GS_Blog" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="GS_Blog" />
+      </profile>
+      <profile default="false" name="Annotation profile for full_project" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="full_project" />
+      </profile>
+      <profile default="false" name="Annotation profile for UdemyLove2Code" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="UdemyLove2Code" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="6kyu" target="1.5" />
+      <module name="bean-ejb-transactions-war" target="1.7" />
+      <module name="container-transactions-ejb-war" target="1.7" />
+      <module name="continer-transactions-ejb-jpa-war" target="1.7" />
+      <module name="ear-client" target="1.7" />
+      <module name="ear-ejb" target="1.7" />
+      <module name="EJB" target="1.5" />
+      <module name="filter-servlet" target="1.7" />
+      <module name="form-servlet" target="1.7" />
+      <module name="full_project" target="1.7" />
+      <module name="GS_Blog" target="1.7" />
+      <module name="Hibernate" target="1.7" />
+      <module name="hibernate-config-xml-mapping-annotations" target="1.7" />
+      <module name="hibernate-criteria" target="1.7" />
+      <module name="hibernate-crud" target="1.7" />
+      <module name="hibernate-inheritance-joined" target="1.7" />
+      <module name="hibernate-many-to-many" target="1.7" />
+      <module name="hibernate-many-to-one" target="1.7" />
+      <module name="hibernate-second-level-cache" target="1.7" />
+      <module name="inheritance-table-per-class" target="1.7" />
+      <module name="Integration" target="1.7" />
+      <module name="JDBC" target="1.7" />
+      <module name="jms" target="1.5" />
+      <module name="jms-ear" target="1.5" />
+      <module name="jms-ejb" target="1.7" />
+      <module name="jms-war" target="1.7" />
+      <module name="JUnit" target="1.5" />
+      <module name="JUnit-01" target="1.7" />
+      <module name="lib" target="1.7" />
+      <module name="param-servlet" target="1.7" />
+      <module name="practice" target="1.7" />
+      <module name="servlet_redirect_forward" target="1.7" />
+      <module name="Servlets" target="1.7" />
+      <module name="session-servlet" target="1.7" />
+      <module name="SimpleWebService" target="1.7" />
+      <module name="SimpleWebService-client" target="1.7" />
+      <module name="SimpleWebService-ear" target="1.7" />
+      <module name="SimpleWebSErvice-ear" target="1.7" />
+      <module name="SimpleWebService-ejb" target="1.7" />
+      <module name="slf4j" target="1.7" />
+      <module name="Spring" target="1.7" />
+      <module name="spring-integration-01" target="1.7" />
+      <module name="spring-integration-02" target="1.8" />
+      <module name="spring-integration-03" target="1.7" />
+      <module name="spring-integration-04" target="1.7" />
+      <module name="spring-integration-05" target="1.7" />
+      <module name="spring-integration-06" target="1.7" />
+      <module name="Spring_Hibernate" target="1.6" />
+      <module name="Spring_Hibernate_Quentin" target="1.7" />
+      <module name="stateless-ejb-local-remote" target="1.5" />
+      <module name="UdemyLove2Code" target="1.6" />
+      <module name="war-client" target="1.7" />
+      <module name="war-ejb" target="1.7" />
+      <module name="Web-Services" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

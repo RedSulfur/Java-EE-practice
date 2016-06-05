@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jms-war:war">
+    <output-path>$PROJECT_DIR$/EJB/jms/jms-war/target</output-path>
+    <root id="archive" name="jms-war.war">
+      <element id="artifact" artifact-name="jms-war:war exploded" />
+    </root>
+  </artifact>
+</component>

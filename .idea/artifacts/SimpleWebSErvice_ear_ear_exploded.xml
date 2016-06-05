@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="SimpleWebSErvice-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/Web-Services/JAX-WS/SimpleWebService-ear/target/SimpleWebService-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SimpleWebSErvice-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Web-Services/JAX-WS/SimpleWebService-ear/target/SimpleWebService-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="archive" name="SimpleWebService-1.0-SNAPSHOT.jar">
+        <element id="module-output" name="SimpleWebService" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Maven: javaee:javaee-api:5" />
+      </element>
+    </root>
+  </artifact>
+</component>
