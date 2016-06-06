@@ -8,7 +8,7 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
-public class PrimaryKeyDemo {
+public class UpdateStudentDemo {
 
     private static ServiceRegistry serviceRegistry;
     private static SessionFactory sessionFactory;
@@ -34,37 +34,34 @@ public class PrimaryKeyDemo {
 
         try {
 
+            int studentId = 104;
             session.beginTransaction();
 
-            System.out.println("Creating 3 student obj ects");
-            Student student1 = new Student("John", "Doe", "john@gmail.com");
-            Student student2 = new Student("Mike", "Myers", "mike@gmail.com");
-            Student student3 = new Student("Dexter", "Morgan", "dexter@gmail.com");
+            System.out.println("Getting student with an id : " + studentId);
 
-            /**
-             * if you want to change a next value for your auto_increment
-             * you should provide the next line of code in sql editor
-             * {@code select setval('schema-name.sequence-name', <new-value>);}
-             * for <PostgreSQL>
-             *
-             * and {@code ALTER TABLE schema-name.table-name AUTO_INCREMENT=<new value>}
-             * for <MySQL>
-             *
-             * {@code TRUNCATE} quickly removes all rows from a set of tables.
-             *
-             */
+            Student myStudent = session.get(Student.class, studentId);
 
-            System.out.println("Saving students");
-            session.save(student1);
-            session.save(student2);
-            session.save(student3);
+            System.out.println("Updating student");
+
+            myStudent.setFirstName("Robert");
 
             session.getTransaction().commit();
+
+            session = sessionFactory.getCurrentSession();
+            session.beginTransaction();
+
+            System.out.println("Update email for all students");
+
+            session.createQuery("update Student set email='somestring@gmail.com'").executeUpdate();
+
+            session.getTransaction().commit();
+
         } catch (Exception e) {
             e.printStackTrace();
+        } finally {
+            destroy();
         }
 
-        destroy();
 
     }
 
