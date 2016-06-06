@@ -1,0 +1,8 @@
+09:13:15 [main] INFO  com.codewars.hibernate.HibernateManyToOne: ==============GET=================
+09:13:15 [main] INFO  com.codewars.hibernate.HibernateManyToOne: Employee : emp_Id=100, emp_name='Chuck Coordinator
+09:13:15 [main] INFO  com.codewars.hibernate.HibernateManyToOne: 
+
+09:13:15 [main] DEBUG com.codewars.hibernate.HibernateManyToOne: Eventplan : event_id=101, note='Watch for gate crashers
+09:13:15 [main] DEBUG com.codewars.hibernate.HibernateManyToOne: Eventplan : event_id=103, note='Watch for seat switching
+09:13:15 [main] DEBUG com.codewars.hibernate.HibernateManyToOne: Eventplan : event_id=3, note='Play Guitar
+09:13:15 [main] INFO  com.codewars.hibernate.HibernateManyToOne: ==============DELETE=================

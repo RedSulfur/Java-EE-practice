@@ -7,5 +7,11 @@
       <schema-pattern>DB-java-ee.films DB-java-ee.pg_catalog DB-java-ee.public</schema-pattern>
       <default-schemas>DB-java-ee.films DB-java-ee.public</default-schemas>
     </data-source>
+    <data-source name="PostgreSQL - DB-java-ee@localhost [2]" uuid="99fd6b2f-693e-4f18-b736-b67993bd93e0">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>postgres.pg_catalog postgres.public</schema-pattern>
+      <default-schemas>postgres.public</default-schemas>
+    </data-source>
   </component>
 </project>

@@ -1,9 +1,6 @@
 package com.love2code.hibernate.demo.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "student")
@@ -13,10 +10,18 @@ public class Student {
      * This part maps the field to the database columns.
      *
      * @param id represents a primary key for our {@link Student} class
-     *              that is related to an actual primary key {@code id} from
-     *              the database
+     *           that is related to an actual primary key {@code id} from
+     *           the database
+     * Id annotation tells Hibernate, that this given field is a primary key
+     * and this field maps to a column in a database table, and that column name
+     * is id.
      */
     @Id
+    /**
+     * tells hibernate how to perform generation, to use a given strategy for
+     * generating an id
+     */
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
 

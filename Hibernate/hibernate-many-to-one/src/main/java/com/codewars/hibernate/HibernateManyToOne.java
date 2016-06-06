@@ -54,7 +54,7 @@ public class HibernateManyToOne {
 
 //        update();
 
-//        delete();
+        delete();
 
   /*      Session s = sessionFactory.getCurrentSession();
         s.beginTransaction();*/
@@ -199,7 +199,7 @@ public class HibernateManyToOne {
         log.info("==============DELETE=================");
         Session session = sessionFactory.getCurrentSession();
         session.beginTransaction();
-        Eventplan eventplan = (Eventplan) session.load(Eventplan.class, new Integer(4));
+        Eventplan eventplan = (Eventplan) session.load(Eventplan.class, new Integer(1));
 
         session.delete(eventplan);
 

@@ -14,7 +14,7 @@ public class TestJDBC {
         try {
             System.out.println("Connecting to database: " + URL);
 
-//            Class.forName("com.mysql.jdbs.Driver");
+//            Class.forName("com.mysql.jdbc.Driver");
             Class.forName("org.postgresql.Driver");
             Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
 
