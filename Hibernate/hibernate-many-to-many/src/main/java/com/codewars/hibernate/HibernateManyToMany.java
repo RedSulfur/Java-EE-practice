@@ -13,7 +13,6 @@ import org.hibernate.service.ServiceRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
 import java.util.List;
 
 
@@ -43,10 +42,10 @@ public class HibernateManyToMany {
 
 //        insertEntity();
 
-        deleteEntity();
+//        deleteEntity();
 
-
-      /*  List<Film> filmList = s.createCriteria(Film.class).list();
+/*
+        List<Film> filmList = s.createCriteria(Film.class).list();
         for (Film film : filmList) {
             log.debug("");
             log.debug("Film: {}", film);
@@ -55,7 +54,7 @@ public class HibernateManyToMany {
             }
         }*/
 
-       /* List<Film> filmList = s.createCriteria(Film.class).list();
+        /*List<Film> filmList = s.createCriteria(Film.class).list();
         for(Film film : filmList){
             for (Actor actor : film.getActorsList()){
                 for (Films_Actors info : actor.getFilms_actorsList()) {
@@ -71,7 +70,7 @@ public class HibernateManyToMany {
             for (Films_Actors info : film.getFilms_actors()){
                 log.debug("Actor name: {}, Actor role: {}", info.getActor().getActorName(), info.getRole());
                 }
-            }
+        }
 
         s.getTransaction().commit();
 

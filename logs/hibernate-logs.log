@@ -1,8 +1,73 @@
-09:13:15 [main] INFO  com.codewars.hibernate.HibernateManyToOne: ==============GET=================
-09:13:15 [main] INFO  com.codewars.hibernate.HibernateManyToOne: Employee : emp_Id=100, emp_name='Chuck Coordinator
-09:13:15 [main] INFO  com.codewars.hibernate.HibernateManyToOne: 
+18:13:38 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
 
-09:13:15 [main] DEBUG com.codewars.hibernate.HibernateManyToOne: Eventplan : event_id=101, note='Watch for gate crashers
-09:13:15 [main] DEBUG com.codewars.hibernate.HibernateManyToOne: Eventplan : event_id=103, note='Watch for seat switching
-09:13:15 [main] DEBUG com.codewars.hibernate.HibernateManyToOne: Eventplan : event_id=3, note='Play Guitar
-09:13:15 [main] INFO  com.codewars.hibernate.HibernateManyToOne: ==============DELETE=================
+18:13:38 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: Reservoir Dogs
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Tim Roth, Actor role: Mr. Orange
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Madsen, Actor role: Mr. Blonde / Vic Vega
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
+
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: Pulp Fiction
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Samuel L. Jackson, Actor role: Jules Winnfield
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Tim Roth, Actor role: Pumpkin
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Venessia Valentino, Actor role: Role in Pulp fiction
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
+
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: Four Rooms
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Tim Roth, Actor role: Ted
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
+
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: Jackie Brown
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Samuel L. Jackson, Actor role: Ordell Robbie
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Bowen, Actor role: Mark Dargas
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Venessia Valentino, Actor role: Role in Jackie Brown
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
+
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: Kill Bill
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Samuel L. Jackson, Actor role: Rufus
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Zoë Bell, Actor role: The Bride
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: James Parks, Actor role: Edgar McGraw
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Bowen, Actor role: Buck
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Madsen, Actor role: Budd
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Parks, Actor role: Earl McGraw
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Venessia Valentino, Actor role: Role in Kill Bill
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
+
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: Death Proof
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Zoë Bell, Actor role: Herself
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: James Parks, Actor role: Earl McGraw
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Parks, Actor role: Earl McGraw
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Bacall, Actor role: Omar
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
+
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: Inglourious Bastards
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Samuel L. Jackson, Actor role: Narrator 
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Zoë Bell, Actor role: Bridget von Hammersmark, Shosanna
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Bacall, Actor role: Pfc. Michael Zimmerman
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
+
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: Django Unchained
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Samuel L. Jackson, Actor role: Stephen
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Zoë Bell, Actor role: Tracker
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: James Parks, Actor role: Tracker Catfish 
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Bowen, Actor role: Tracker
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Madsen, Actor role: Joe Gage
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Parks, Actor role: LeQuint Dickey Mining Co. Employee
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Michael Bacall, Actor role: Smitty Bacall
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
+
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: The H8ful
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Samuel L. Jackson, Actor role: Major Marquis Warren
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Zoë Bell, Actor role: Six-Horse Judy
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: James Parks, Actor role: Stagecoach
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Tim Roth, Actor role: Oswaldo Mobray 
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
+
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: My new test
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
+
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: Rotting Soul
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Kurt, Actor role: Reside in the abyss of despair
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: 
+
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Film title: Soul in shambles
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Actor name: Dylan O'Brien, Actor role: Feel endless pain
+18:13:39 [main] DEBUG com.codewars.hibernate.HibernateManyToMany: Transaction committed
