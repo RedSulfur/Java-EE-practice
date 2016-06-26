@@ -3,7 +3,6 @@ package com.codewars.hibernate;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 
@@ -15,8 +14,15 @@ import java.util.Set;
 @Table(name = "actors")
 public class Actor implements Serializable{
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "actor_id", unique = true, nullable = false)
     private Long actorId;
+
+    @Column(name = "actor_name")
     private String actorName;
+
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "pk.actor", cascade = CascadeType.ALL)
     private Set<Films_Actors> films_actors = new HashSet<Films_Actors>(0);
 
     public Actor() {
@@ -26,9 +32,6 @@ public class Actor implements Serializable{
         this.actorName = actorName;
     }
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "actor_id", unique = true, nullable = false)
     public Long getActorId() {
         return this.actorId;
     }
@@ -37,7 +40,6 @@ public class Actor implements Serializable{
         this.actorId = actorId;
     }
 
-    @Column(name = "actor_name")
     public String getActorName() {
         return actorName;
     }
@@ -46,7 +48,7 @@ public class Actor implements Serializable{
         this.actorName = actorName;
     }
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "pk.actor", cascade = CascadeType.ALL)
+
     public Set<Films_Actors> getFilms_actors() {
         return films_actors;
     }

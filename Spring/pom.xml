@@ -17,6 +17,7 @@
         <module>Spring_Hibernate_Quentin</module>
         <module>Integration</module>
         <module>UdemyLove2Code</module>
+        <module>UdemyAnnotations</module>
     </modules>
 
     <groupId>com.codewars</groupId>

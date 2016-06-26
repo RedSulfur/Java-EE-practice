@@ -24,6 +24,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Servlets/servlet_redirect_forward" />
     <file type="web" url="file://$PROJECT_DIR$/Servlets/session-servlet" />
     <file type="web" url="file://$PROJECT_DIR$/Spring/Integration/spring-integration-02" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring/UdemyAnnotations" />
     <file type="web" url="file://$PROJECT_DIR$/Spring/UdemyLove2Code" />
     <type id="Spring" />
   </component>

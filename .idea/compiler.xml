@@ -60,6 +60,7 @@
         <module name="spring-integration-06" />
         <module name="Spring_Hibernate" />
         <module name="Spring_Hibernate_Quentin" />
+        <module name="UdemyAnnotations" />
         <module name="Udemylove2code" />
         <module name="UdemyLove2Code" />
         <module name="war-client" />
@@ -118,6 +119,7 @@
       <module name="Spring_Hibernate" target="1.6" />
       <module name="Spring_Hibernate_Quentin" target="1.6" />
       <module name="stateless-ejb-local-remote" target="1.5" />
+      <module name="UdemyAnnotations" target="1.6" />
       <module name="Udemylove2code" target="1.7" />
       <module name="UdemyLove2Code" target="1.6" />
       <module name="war-client" target="1.5" />
