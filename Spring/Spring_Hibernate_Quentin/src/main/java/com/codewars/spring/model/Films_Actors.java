@@ -3,11 +3,6 @@ package com.codewars.spring.model;
 import javax.persistence.*;
 import java.io.Serializable;
 
-/**
- * Created by sulfur on 25.02.16.
- */
-
-
 @Entity
 @Table(name = "films_actors", catalog = "films")
 @AssociationOverrides({
