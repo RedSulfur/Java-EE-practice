@@ -1,2 +1,2 @@
 # Java-EE-practice
-Developing skills in Hibernate, Spring, Struts etc.
+Developing skills in EJB, Struts, Servlets etc.
